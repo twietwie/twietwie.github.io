@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+
+
+
+
+#index-msg-box6-0 .mbr-section-title,
+#index-msg-box6-0 .lead p {
+  color: #fff;
+}
+#index-msg-box6-0 H3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #efefef;
+}
+
+#page1-msg-box4-0 H3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-align: right;
+  font-size: 30px;
+}
