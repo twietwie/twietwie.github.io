@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "index.html",
     "versionFirst": "3.6.4",
-    "versionPublish": "3.6.4",
+    "versionPublish": "3.12.1",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -14,18 +14,18 @@
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "titleFont": "Titillium Web",
+        "subtitleFont": "Titillium Web",
+        "textFont": "Titillium Web",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false,
+        "isRtl": false
       }
     },
-    "publishType": "local",
-    "publishPath": "file:///Users/Thuy/Documents/School/LUCA_Gent/Vakken/Professionalisering_beeldbanken&digitale%20archieven",
-    "path": "file:///Users/Thuy/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2016-09-30_104849",
-    "screenshot": "screenshot.png"
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "uniqCompNum": 16
   },
   "pages": {
     "index.html": {
@@ -39,23 +39,124 @@
       },
       "components": [
         {
-          "_name": "header2",
           "_styles": {
-            "H3": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "P": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700",
-              "text-align": "left"
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "16px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
             }
           },
-          "_anchor": "index-header2-1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-c",
           "_params": {
+            "bgColor": "#282828",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Thuy Lê Thi Thu</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Work</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title SPAN": {
+              "color": "#ffffff",
+              "text-align": "left",
+              "font-size": "32px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".mbr-section-title": {
+              "font-size": "32px"
+            },
+            ".mbr-section-text": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "header2-2",
+          "_params": {
+            "imageSize": "45",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/wandy-1-2000x1250-1.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/p1050689-2000x1333.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
@@ -63,8 +164,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#000000",
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000",
             "inverse": false,
             "showTitle": true,
             "showText": true,
@@ -75,10 +176,10 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/wandy-1-1400x875-12.png",
-              "link": "index.html",
-              "alt": "©",
-              "title": "Wandy",
+              "src": "@PROJECT_PATH@/assets/images/mobirise-1400x1364.jpg",
+              "link": "index.html#index-image1-0",
+              "alt": "©Thuy Lê Thi Thu",
+              "title": "Gent 2017",
               "linkInNewWindow": false
             },
             "video": {
@@ -90,170 +191,298 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header2",
               "link": "",
-              "size": 0
+              "size": 250
             }
           },
-          "title": "Thuy Lê Thi Thu",
-          "text": "Born in Vietnam on 7 september 1997 and adopted to Belgium&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+          "title": "<span style=\"font-weight: normal;\">Thuy Lê Thi Thu<br></span><br><br>",
+          "text": "<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Thuy Lê Thi Th</a>  "
         },
         {
-          "_name": "image1",
-          "_anchor": "index-image1-0",
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/optic-1400x872-72.png",
-              "width": 1400,
-              "link": "index.html#index-image1-0",
-              "alt": "©",
-              "title": "Optic",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "_params": {
-            "showText": false
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
-        },
-        {
-          "_name": "features1",
+          "_inherit": "header2",
           "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "36px"
             },
-            ".mbr-cards-col:nth-child(odd) .card-title": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            ".mbr-section-text": {
+              "color": "#565656"
             },
-            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
-            },
-            ".mbr-cards-col:nth-child(even) .card-title": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
-            },
-            ".mbr-cards-col:nth-child(even) .card-subtitle": {
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            ".mbr-section-title SPAN": {
+              "color": "#efefef"
             }
           },
-          "_anchor": "index-features1-0",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-e",
           "_params": {
-            "columnsColor": "#2e2e2e",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
+            "imageSize": "70",
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/little-hiawatha-2000x1109.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": false,
-            "showButtons": false
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false
           },
-          "media1": {
+          "media": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ijs-600x709-26.png",
-              "class": "card-img-top",
-              "width": 600,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
               "active": true,
-              "link": "index.html#index-image1-0",
-              "alt": "",
-              "title": "© Thuy Lê Thi Thu",
-              "linkInNewWindow": false
+              "src": "https://www.youtube.com/watch?v=6Nw7nEsDLWk",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": "on"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
             }
           },
-          "title1": "Wakker worden",
-          "subtitle1": "Op een ochtend",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
+          "title": "<span style=\"font-weight: normal;\">Little Hiawatha</span>",
+          "text": "Full screen intro with youtube video.<br>Mobirise helps you cut down development time by providing you with a flexible website editor.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "images": [
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-0405-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-0405-2000x2666.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tekening-2000x1318-800x527.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tekening-2000x1318.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mobirise-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-0860kopie-2000x2412-800x964.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-0860kopie-2000x2412.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-0819kopie-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-0819kopie-2000x2666.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise-4-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mobirise-4-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pc280054kopie-2000x1298-800x519.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pc280054kopie-2000x1298.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mobirise-2000x3000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5848kopie-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5848kopie-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "2",
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-6",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "tags": "Responsive",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=GjkddUXq9Yk&feature=youtu.be",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-02-24-12-40-24.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=HcN9f4G_Nd4&feature=youtu.be",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-02-24-12-41-28.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "5",
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery4-9",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-f",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/paal-600x681-18.png",
-              "class": "card-img-top",
-              "width": 600,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
               "active": true,
-              "link": "index.html#index-image1-0",
-              "alt": "",
-              "title": "Paal",
-              "linkInNewWindow": false
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
             }
           },
-          "title2": "Wat denkte?",
-          "subtitle2": "Paal of niet",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/spuit-600x800-8.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "index.html#index-image1-0",
-              "alt": "© Thuy Lê Thi Thu",
-              "title": "Spuit",
-              "linkInNewWindow": false
-            }
-          },
-          "title3": "Lijn",
-          "subtitle3": "Niet goed",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/cry-600x450-33.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "index.html#index-image1-0",
-              "alt": "© Thuy Lê Thi Thu",
-              "title": "Cry",
-              "linkInNewWindow": false
-            }
-          },
-          "title4": "Ween niet",
-          "subtitle4": "Mascara",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+          "title": "INTRO WITH YOUTUBE VIDEO",
+          "text": "Full screen intro with youtube video.<br>Mobirise helps you cut down development time by providing you with a flexible website editor.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\">MORE</a>"
         }
       ]
     },
@@ -291,6 +520,7 @@
           },
           "_anchor": "page1-msg-box4-0",
           "_params": {
+            "imageSize": 50,
             "paddingTop": "7",
             "paddingBottom": "0",
             "parallax": true,
