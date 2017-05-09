@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "versionFirst": "3.6.4",
     "versionPublish": "3.12.1",
     "name": "My Site",
@@ -25,7 +25,7 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "uniqCompNum": 55
+    "uniqCompNum": 57
   },
   "pages": {
     "index.html": {
@@ -127,7 +127,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">THUY LÊ THI THU</a>",
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">THUY LÊ THI THU</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"video.html\">Video</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Installation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Drawing</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Performance</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -147,11 +147,11 @@
             "bgVideo": {
               "width": 1280,
               "height": 720,
-              "url": "https://www.youtube.com/embed/fE2UIRqNQKQ?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/embed/hw0kNPtt2NA?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.4",
             "overlayColor": "#000",
             "contentAlign": "right",
             "showTitle": false,
@@ -171,17 +171,18 @@
       },
       "components": [
         {
+          "_inherit": "header1",
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
-          "_anchor": "header2-1h",
+          "_name": "header4",
+          "_anchor": "header4-1j",
           "_params": {
-            "imageSize": "26",
             "parallax": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#c1c1c1",
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "width": 1280,
@@ -190,44 +191,21 @@
             },
             "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.3,
+            "overlayOpacity": "0.5",
             "overlayColor": "#000",
-            "inverse": false,
+            "contentAlign": "right",
             "showTitle": false,
             "showText": true,
-            "showButtons": false,
-            "showArrow": false
+            "showButtons": false
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/gent-1400x1364.jpg",
-              "link": "",
-              "alt": "@Thuy Lê Thi Thu",
-              "title": "Gent 2017",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "INTRO WITH IMAGE",
-          "text": "Thuy Lê Thi Thu (°1997, Ho Chi Minh) studies Mixed Media at Luca School of Arts in Ghent. Her work consists of various media including (video) installations, performance, drawings, etc. They focus on the activity of producing and presenting. She works in a playful and childish way with different day-to-day materials. The energy of the place and environment is something that attaches great importance. She invites the viewer to make new personal associations.<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "title": "",
+          "text": "Thuy Lê Thi Thu (°1997, Ho Chi Minh) studies Mixed Media at Luca School of Arts in Ghent. Her work consists of various media including (video) installations, performance, drawings, etc. She works in a playful and childish manner with different day-to-day materials. There is a focus on the activity of producing and presenting. The energy of the place and environment is an important influence to her. She invites the viewer to make new personal associations.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
-            ".mbr-section-text": {
+            ".mbr-section-lead": {
+              "font-size": "14px",
               "font-family": "'Noto Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
-              "font-size": "14px",
               "text-align": "left"
             }
           }
@@ -453,7 +431,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">THUY LÊ THI THU</a>",
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">THUY LÊ THI THU</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"video.html\">Video</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Installation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Drawing</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Performance</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -677,7 +655,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">THUY LÊ THI THU</a>",
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">THUY LÊ THI THU</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"video.html\">Video</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Installation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Drawing</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Performance</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
