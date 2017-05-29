@@ -3,7 +3,7 @@
     "currentPage": "index.html",
     "versionFirst": "3.6.4",
     "versionPublish": "3.12.1",
-    "name": "My Site",
+    "name": "Thuy Lê Thi Thu",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -25,7 +25,9 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "uniqCompNum": 83
+    "uniqCompNum": 83,
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -1067,7 +1069,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x13336.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x13338.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1087,7 +1089,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2000x15007.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2000x15009.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
