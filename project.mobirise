@@ -33,7 +33,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Website_1",
+        "title": "THUY LÊ THI THU",
         "meta_descr": "\u0003© Thuy Lê Thi Thu",
         "header_custom": "",
         "footer_custom": "",
@@ -1115,7 +1115,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133322.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133323.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
