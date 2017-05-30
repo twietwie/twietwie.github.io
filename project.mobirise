@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "performance.html",
+    "currentPage": "index.html",
     "versionFirst": "3.6.4",
     "versionPublish": "3.12.1",
     "name": "Thuy Lê Thi Thu",
@@ -25,7 +25,7 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "uniqCompNum": 89,
+    "uniqCompNum": 90,
     "favicon": "",
     "noImageResize": ""
   },
@@ -137,26 +137,53 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "image1",
-          "_anchor": "image1-2f",
+          "_name": "header2",
+          "_anchor": "header2-2h",
+          "_params": {
+            "imageSize": "60",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000000",
+            "inverse": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false
+          },
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/le-twiii-1400x924.jpg",
               "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/le-twiii-1400x924.jpg",
               "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
             }
           },
-          "_params": {
-            "showText": false
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
+          "title": "INTRO WITH IMAGE",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         }
       ]
     },
@@ -1112,7 +1139,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133318.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133319.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1452,7 +1479,7 @@
           "_name": "gallery3",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": 1,
+            "paddingBottom": "4",
             "images": [
               {
                 "tags": "Awesome",
@@ -1535,7 +1562,7 @@
                 "active": true
               }
             ],
-            "spacing": 1,
+            "spacing": "2",
             "showText": false,
             "filter": false,
             "bgColor": "#000000",
