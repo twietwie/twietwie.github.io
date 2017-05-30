@@ -25,7 +25,7 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "uniqCompNum": 90,
+    "uniqCompNum": 91,
     "favicon": "",
     "noImageResize": ""
   },
@@ -137,53 +137,29 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
-          "_anchor": "header2-2h",
+          "_name": "image2",
+          "_anchor": "image2-2i",
           "_params": {
-            "imageSize": "60",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "paddingTop": "6",
+            "paddingBottom": "7",
             "bgColor": "#000000",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000000",
-            "inverse": false,
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
-            "showArrow": false
+            "showText": false
           },
           "media": {
             "image": {
               "active": true,
-              "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/le-twieee-1400x857.jpg",
+              "width": 1400,
               "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
             }
           },
-          "title": "INTRO WITH IMAGE",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         }
       ]
     },
@@ -1139,7 +1115,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133321.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133322.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
