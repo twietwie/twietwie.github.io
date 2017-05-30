@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "drawings.html",
+    "currentPage": "performance.html",
     "versionFirst": "3.6.4",
     "versionPublish": "3.12.1",
     "name": "Thuy Lê Thi Thu",
@@ -25,7 +25,7 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "uniqCompNum": 86,
+    "uniqCompNum": 89,
     "favicon": "",
     "noImageResize": ""
   },
@@ -134,36 +134,29 @@
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"video.html\">Video</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"installation.html\">Installation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawing</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"performance.html\">Performance</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
-          "_inherit": "header1",
           "_tags": [
             "Theme"
           ],
-          "_name": "header4",
-          "_anchor": "header4-l",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/le-twiii-2000x1320.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/hw0kNPtt2NA?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+          "_name": "image1",
+          "_anchor": "image1-2f",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/le-twiii-1400x924.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.2",
-            "overlayColor": "#000",
-            "contentAlign": "right",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
           },
-          "title": "VIDEO BACKGROUND",
-          "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+          "_params": {
+            "showText": false
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         }
       ]
     },
@@ -1119,7 +1112,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133317.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133318.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1476,8 +1469,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mayday-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mayday-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mayday-1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mayday-1-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1486,8 +1479,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/img-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-1-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1496,8 +1489,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mayda-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/mayda-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/mayda-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mayda-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1506,8 +1499,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/maydayy-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/maydayy-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/maydayy-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/maydayy-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1516,8 +1509,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/eend-mayday-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/eend-mayday-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/eend-mayday-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/eend-mayday-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1526,8 +1519,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/performance-2000x1108-800x443.png",
-                "image": "@PROJECT_PATH@/assets/images/performance-2000x1108.png",
+                "thumb": "@PROJECT_PATH@/assets/images/performance-2000x1108-800x443.jpg",
+                "image": "@PROJECT_PATH@/assets/images/performance-2000x1108.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1536,8 +1529,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/performance-2000x1250-800x500.png",
-                "image": "@PROJECT_PATH@/assets/images/performance-2000x1250.png",
+                "thumb": "@PROJECT_PATH@/assets/images/performance-2000x1250-800x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/performance-2000x1250.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
