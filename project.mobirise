@@ -1099,7 +1099,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2000x15007.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2000x150013.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
@@ -1119,7 +1119,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x13338.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133314.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1161,8 +1161,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/o19-2000x2666-800x1066.png",
-                "image": "@PROJECT_PATH@/assets/images/o19-2000x2666.png",
+                "thumb": "@PROJECT_PATH@/assets/images/o19-2000x2580-800x1032.png",
+                "image": "@PROJECT_PATH@/assets/images/o19-2000x2580.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1181,20 +1181,20 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gent-instal-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/gent-instal-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/gent-instal-2000x1443-800x577.png",
+                "image": "@PROJECT_PATH@/assets/images/gent-instal-2000x1443.png",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/installatie-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/installatie-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/installatie-2000x1848-800x739.png",
+                "image": "@PROJECT_PATH@/assets/images/installatie-2000x1848.png",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": "3",
