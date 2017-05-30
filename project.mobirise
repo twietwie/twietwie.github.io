@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "drawings.html",
+    "currentPage": "installation.html",
     "versionFirst": "3.6.4",
     "versionPublish": "3.12.1",
     "name": "Thuy Lê Thi Thu",
@@ -154,7 +154,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.2",
             "overlayColor": "#000",
             "contentAlign": "right",
             "showTitle": false,
@@ -1099,7 +1099,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2000x15005.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2000x15007.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
@@ -1119,7 +1119,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x13336.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x13338.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1197,7 +1197,7 @@
                 "active": true
               }
             ],
-            "spacing": "1",
+            "spacing": "3",
             "showText": false,
             "filter": false,
             "bgColor": "#000000",
@@ -1351,7 +1351,7 @@
                 "active": false
               }
             ],
-            "spacing": 1,
+            "spacing": "2",
             "showText": false,
             "filter": false,
             "bgColor": "#000000",
