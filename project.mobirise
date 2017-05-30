@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "drawings.html",
     "versionFirst": "3.6.4",
     "versionPublish": "3.12.1",
     "name": "Thuy Lê Thi Thu",
@@ -25,7 +25,7 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "uniqCompNum": 83,
+    "uniqCompNum": 86,
     "favicon": "",
     "noImageResize": ""
   },
@@ -144,7 +144,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/le-twie-2000x1250.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/le-twieee-2000x1320.png",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1048,10 +1048,10 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery4",
+          "_name": "gallery3",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": 1,
+            "paddingBottom": 1,
             "images": [
               {
                 "tags": "Awesome",
@@ -1061,20 +1061,10 @@
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333.jpg",
                 "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x13330.jpg",
-                "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Creative",
+                "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
@@ -1084,37 +1074,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gent-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2000x15001.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gentt-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gentt-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gent-20177-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-20177-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
+                "tags": "Creative",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
@@ -1128,8 +1088,48 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gent-20177-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-20177-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gent-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2000x15005.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-1-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/gent-2017-1-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x13336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gent-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2000x1333.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
@@ -1138,11 +1138,11 @@
             "showText": false,
             "filter": false,
             "bgColor": "#000000",
-            "filterBgColor": false,
-            "fullWidth": false,
+            "filterBgColor": true,
+            "fullWidth": true,
             "showBullets": true
           },
-          "_anchor": "gallery4-1y",
+          "_anchor": "gallery3-2d",
           "articleLayout": false,
           "allItem": "All"
         },
@@ -1325,8 +1325,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/tekening-2000x2666-800x1066.png",
-                "image": "@PROJECT_PATH@/assets/images/tekening-2000x2666.png",
+                "thumb": "@PROJECT_PATH@/assets/images/tekening-2000x2202-800x880.png",
+                "image": "@PROJECT_PATH@/assets/images/tekening-2000x2202.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1335,10 +1335,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/paal-2000x2271-800x908.png",
-                "image": "@PROJECT_PATH@/assets/images/paal-2000x2271.png",
+                "thumb": "@PROJECT_PATH@/assets/images/paal-2000x2221-800x888.png",
+                "image": "@PROJECT_PATH@/assets/images/paal-2000x2221.png",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Creative",
@@ -1348,7 +1348,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/tekening-gent-2017-2000x1248-800x499.jpg",
                 "image": "@PROJECT_PATH@/assets/images/tekening-gent-2017-2000x1248.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": 1,
