@@ -25,7 +25,7 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "uniqCompNum": 93,
+    "uniqCompNum": 95,
     "favicon": "",
     "noImageResize": ""
   },
@@ -138,9 +138,9 @@
             "Theme"
           ],
           "_name": "header2",
-          "_anchor": "header2-2j",
+          "_anchor": "header2-2m",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "41",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
@@ -163,7 +163,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/le-twie-1400x875.jpg",
+              "src": "@PROJECT_PATH@/assets/images/eend-1400x1400.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -1139,7 +1139,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/gent-2017-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133325.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gent-2017-2000x133326.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
